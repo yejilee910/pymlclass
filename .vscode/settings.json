@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "/Users/yejilee/opt/anaconda3/envs/pyml/bin/python"
+    "python.pythonPath": "/Users/yejilee/opt/anaconda3/envs/pyml/bin/python",
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.fontAliasing": "auto",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
 }
