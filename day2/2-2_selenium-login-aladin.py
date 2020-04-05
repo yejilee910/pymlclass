@@ -53,9 +53,9 @@ form.submit()
 print("로그인 버튼을 클릭합니다.")
 time.sleep(3)
 # 쇼핑 페이지의 데이터 가져오기 --- (※5)
-print("naver shopping url 접속")
-browser.get(" r/account/wmaininfo.aspx?pType=OrdersHistoryList&start=we")
-print("naver shopping url 데이터 가져오기")
+print("알라딘  url 접속")
+browser.get("https://www.aladin.co.kr/account/wmaininfo.aspx?pType=OrdersHistoryList&start=we")
+print("알라딘 shopping url 데이터 가져오기")
 time.sleep(3)
 
 file = open('aladin_shopping_list.txt', 'w')     # file.txt 파일을 쓰기 모드(w)로 열기. 파일 객체 반환

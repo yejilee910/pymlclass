@@ -2,7 +2,7 @@
 import time
 from selenium import webdriver
 
-path = "C:/programs/webdriver/chromedriver.exe"
+path = "./chromedriver"
 driver = webdriver.Chrome(path)
 
 # 적당한 웹 페이지 열기
