@@ -4,8 +4,6 @@ from keras.layers.core import Dense, Dropout, Activation, Flatten
 from keras.layers import Convolution2D, MaxPooling2D
 from keras.optimizers import SGD, Adam, RMSprop
 from keras.utils import np_utils
-from keras.utils import np_utils
-import numpy as np
 image_w = 28
 image_h = 28
 nb_classes = 10
@@ -47,5 +45,3 @@ def build_model():
   return model
 if __name__ == '__main__':
   main()
-
-
